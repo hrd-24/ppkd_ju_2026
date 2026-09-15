@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ppkd_ju_2026/constant/app_colors.dart';
+import 'package:ppkd_ju_2026/constant/app_texts.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -15,32 +17,45 @@ class LoginScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   // ICON
-                  const Icon(
-                    Icons.lock,
-                    size: 80,
-                    color: Colors.blue,
-                  ),
+                  // const Icon(
+                  //   Icons.lock,
+                  //   size: 80,
+                  //   color: WarnaKita.accentColor,
+                  // ),
 
                   const SizedBox(height: 24),
 
                   // TITLE
-                  const Text(
-                    'Login',
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
+                  // const Text(
+                  //   'Login',
+                  //   style: TextStyle(
+                  //     fontSize: 32,
+                  //     fontWeight: FontWeight.bold,
+                  //     color: WarnaKita.accentColor,
+                  //   ),
+                  // ),
 
+                  // Text(TextKita.loginTitle),
+
+                  // Text(
+                  //   TextKita.loginTitle,
+                  //   style: TextStyle(
+                  //   fontFamily: FontKita.secondaryFont),
+                  // ),
+
+                  // const Text(
+                  //   'Selamat datang kembali',
+                  //   style: TextStyle(
+                  //     fontSize: 18,
+                  //     color: Colors.grey,
+                  //   ),
+                  // ),
                   const SizedBox(height: 8),
 
                   // SUBTITLE
                   const Text(
                     'Silakan masuk ke akun Anda',
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.grey,
-                    ),
+                    style: TextStyle(fontSize: 16, color: Colors.grey),
                   ),
 
                   const SizedBox(height: 32),

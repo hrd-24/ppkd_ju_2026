@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:ppkd_ju_2026/constant/contoh.dart';
+import 'package:ppkd_ju_2026/db/pages/home_pages.dart';
+import 'package:ppkd_ju_2026/db/pages/login_page.dart';
+import 'package:ppkd_ju_2026/db/pages/validasi.dart';
 import 'package:ppkd_ju_2026/ui_exercise/pages/login_screen.dart';
+import 'package:ppkd_ju_2026/validasi/validasi_form.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +20,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       // ),
-      home: LoginScreen()
+      home: LoginScreenDB()
     );
   }
 }
