@@ -24,6 +24,7 @@ class LoginScreen extends StatelessWidget {
                   // ),
 
                   const SizedBox(height: 24),
+                  const SizedBox(height: 24),
 
                   // TITLE
                   // const Text(
